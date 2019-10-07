@@ -1,1 +1,0 @@
-cmd_/home/pi/git/LedTest/GPIO_TEST/myled.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/git/LedTest/GPIO_TEST/myled.ko /home/pi/git/LedTest/GPIO_TEST/myled.o /home/pi/git/LedTest/GPIO_TEST/myled.mod.o ;  true
